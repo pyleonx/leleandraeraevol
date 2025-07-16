@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Did You Miss Me?</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
       font-family: 'Century Gothic', sans-serif;
       background-color: #e45858;
@@ -22,6 +25,7 @@
       max-width: 600px;
       margin: 0 auto;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
     }
     h1 {
       font-size: 2.5em;
@@ -42,8 +46,7 @@
       background-color: #FF6347;
     }
     .photo {
-      width: 80%;
-      max-width: 300px;
+      max-width: 100%;
       height: auto;
       border-radius: 10px;
       margin: 20px 0;
